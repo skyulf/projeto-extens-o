@@ -1,0 +1,105 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: url('background.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+.produtos {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px 20px;
+    flex-wrap: wrap;
+}
+
+.produto {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 250px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.produto img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.produto h2 {
+    margin: 15px 0 10px;
+    font-size: 1.5em;
+}
+
+.produto p {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+
+button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e60000;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-top: 50px;
+}
+
+
+.btn {
+    display: inline-block;
+    background-color: #ff4d4d;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e60000;
+}
+
+.carrinho {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    margin: 50px auto;
+    max-width: 600px;
+}
